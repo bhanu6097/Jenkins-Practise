@@ -11,10 +11,15 @@ export const Counter = () => {
         setCounter(counter - 1)
     }
     return(
+        <>
         <div style={{ display: 'flex'}}>
         <button onClick={increement}>+</button>
         {counter}
         <button onClick={decreement}>-</button>
+        <br/>
+        
         </div>
+        <button>Test</button>
+        </>
     )
 }
